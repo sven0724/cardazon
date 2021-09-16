@@ -1,0 +1,79 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+button:focus {
+  /*outline: 1px dotted;*/
+  /*outline: 5px auto -webkit-focus-ring-color;*/
+  outline: none !important;
+}
+
+.text-crypton {
+  color: #43e7ff !important
+}
+
+.sidebar-item {
+  border-left: 6px solid transparent !important;
+}
+
+.sidebar-item.active {
+  border-left: 6px solid #43e7ff !important;
+}
+
+
+
+.header {
+  float: right;
+  width: calc(100% - 250px);
+  background-color: rgb(68, 94, 118);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.balance {
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 3px 8px;
+  text-shadow: 1px 1px 1px #000000;
+  background-color: rgb(91, 192, 222);
+}
+
+.userName {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 5px;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.header .logOut {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 20px;
+  cursor: pointer !important;
+  border: none;
+  background: transparent;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
